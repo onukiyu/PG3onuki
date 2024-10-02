@@ -1,9 +1,10 @@
-#include <iostream>
-#include <Windows.h>
+#include <stdio.h>
+#include<Windows.h>
 
 int main() {
-	//SetConsoleOutputCp(65001);
-	char str[] = "ƒ\";
-	printf("%s", str);
+	SetConsoleOutputCP(65001);
+
+	printf("‚ ‚ ‚ ‚ ");
+
 	return 0;
 }
