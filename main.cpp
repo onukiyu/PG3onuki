@@ -32,7 +32,6 @@ int main(void) {
 		std::cout << *it_f << endl;
 	}
 
-
 	printf("\n2022年\n");
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); ++it_f) {
 
